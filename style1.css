@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+header{
+	background-color:brown;
+	color :cyan;
+}
+.social-icons{
+	background-color:black;
+	flex-grow:10;
+}
+.social-icons i{
+	cursor:pointer;
+}
+
+.icon-right-btn{
+	color: white;
+	padding:2px 2px;
+	margin-right:2%;
+	background-color:black;
+}
+.icon-right-btn :hover{
+	color: white;
+	background-color:black;
+}
+body{
+	padding:0;
+	margin:0;
+	font-family:'Lato';
+}
+
+.navbar-brand{
+	font-family:'Pacifico';
+	font-size:35px;
+	color:cyan !important;
+}
+
+.nav-link{
+	font-size:16px;
+	margin:15px;
+	color:white !important;
+	font-family:Roboto Condensed;
+}
+.nav-link:hover{
+	color: black !important; 
+}
+
+.active .nav-link{
+	color: black !important; 
+}
+.menu-right-btn{
+	color: white;
+	padding:13px 46px;
+	margin-right:4%;
+	background-color:black;
+}
+
+.menu-right-btn :hover{
+	color: white;
+	background-color: #00E8E8;
+}
+
+.site-content{
+    background-image: url('resto3.jpg');
+    background-attachment: fixed;
+    background-size:cover ;
+}
+.site-title{
+    color:white;
+    font-family: 'Righteous';
+}
+.site-title{
+    margin-top:35%;
+    margin-bottom: 6%;
+    font-size:50px;
+}
+.site-btn{
+    margin-left: 35%;
+    background-color:salmon;
+    color: whitesmoke;
+}
+.site-btn{
+    margin-top: 5%;
+    margin-bottom: 40%;
+}
+.section-1.heading{
+    margin-top:8%;
+}
+.section-1 .card-text{
+    color:rgba(0,0,0,0.59);
+}
+.section1{
+    margin-bottom: 6px;
+}
